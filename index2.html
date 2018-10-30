@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- viewport  响应式视图标签   initial-scale=1不能缩放 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body data-spy="scroll" data-target="#nav-demo">
+    <!-- card 
+    <div class="card text-center text-white">
+        <img src="img/0.jpg" class="card-img-top">
+        <div class="card-img-overlay">
+            <h4 class="card-title">title</h4>
+            <p class="card-text">text.....</p>
+            <a href="#" class="card-link">action</a>
+        </div>
+    </div>
+    <div class="card-deck">
+        <div class="card text-center">
+            <div class="card-header">
+                <h4>header</h4>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">title</h4>
+                <p class="card-text">text.....</p>
+                
+            </div>
+            <div class="card-footer"><a href="#" class="card-link">action</a></div>
+        </div>
+
+        <div class="card text-center">
+            <div class="card-header">
+                <h4>header</h4>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">title</h4>
+                <p class="card-text">text.....</p>
+                <p class="card-text">text.....</p>
+                
+            </div>
+            <div class="card-footer"><a href="#" class="card-link">action</a></div>
+        </div>
+    </div>
+    -->
+    <!-- carousel d-block 转化为block  w-100 宽度设为100% -->
+    <!-- <div class="carousel slide demo" id="carousel-demo" data-interval="1000"> data-ride="carousel"
+     <ol class="carousel-indicators">
+       <li data-target="#carousel-demo" data-slide-to="0"></li>
+       <li data-target="#carousel-demo" data-slide-to="1"></li>
+     </ol>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="img/0.jpg" class="d-block w-100">
+       </div>
+       <div class="carousel-item">
+         <img src="img/2.jpg" class="d-block w-100">
+       </div>
+        <div class="carousel-item">
+         <img src="img/3.jpg" class="d-block w-100">
+       </div>
+       <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+       </a>
+       <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+       </a>
+     </div>
+   </div> -->
+    <!-- collapse 控制内容的可见性-->
+    <!-- <a href="#collapse-demo" class="btn btn-primary" data-toggle="collapse">action link</a>
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#collapse-demo">action btn</button>
+    <div class="collapse" id="collapse-demo">
+        <div class="card card-body">
+            hello~
+        </div>
+    </div>
+    <div id="according">
+        <div class="card">
+            <div class="card-header">
+                <a href="#collapse-1" data-toggle="collapse">title</a>
+            </div>
+            <div class="collapse show" id="collapse-1" data-parent="#according">
+                <div class="card-body">
+                    hello~~
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a href="#collapse-2" data-toggle="collapse">title</a>
+            </div>
+            <div class="collapse" id="collapse-2" data-parent="#according">
+                <div class="card-body">
+                    hello~~
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- dropdown下拉菜单 -->
+    <!-- <div class="dropdown">
+      <div class="btn-group">
+        <a href="" class="btn btn-success">Dropdown</a>
+        <button class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"><span class="sr-only">Toggle Dropdown</span></button>
+        <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header">web language</div>
+            <a href="#" class="dropdown-item">html</a>
+            <a href="#" class="dropdown-item">css</a>
+            <a href="#" class="dropdown-item">js</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">more</a>
+        </div>
+      </div>
+    </div> -->
+    <!-- jumbotron 大屏幕-->
+    <!--     <div class="jumbotron">
+  <h1 class="display-1">hello</h1>
+  <p class="lead mb-4">welcome</p>
+  <a href="#" class="btn btn-primary btn-lg">subscribe</a>
+</div> -->
+    <!-- list group -->
+    <!-- <div class="row">
+        <div class="col-4">
+            <div class="list-group">
+                <a data-toggle="list" href="#html-content" class="list-group-item list-group-item-action active">html</a>
+                <a data-toggle="list" href="#css-content" class="list-group-item list-group-item-warning">css</a>
+                <a data-toggle="list" href="#" class="list-group-item list-group-item-action disabled">css</a>
+                <a href="#js-content" data-toggle="list"
+      class="list-group-item 
+      list-group-item-action
+      d-flex
+      justify-content-between
+      align-items-center">js
+      <span class="badge badge-primary badge-pill">12</span></a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="html-content">hello html</div>
+                <div class="tab-pane" id="css-content">hello css</div>
+                <div class="tab-pane" id="js-content">hello js</div>
+            </div>
+        </div>
+    </div> -->
+    <!-- modal对话框 -->
+    <!--  <div id="modal-demo" class="modal fade show">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title">
+             Modal
+           </h5>
+           <button class="close" data-dismiss="modal">&times;</button>
+         </div>
+         <div class="modal-body">
+           <p>helo~</p>
+         </div>
+         <div class="modal-footer">
+           <button class="btn btn-secondary">取消</button>
+           <button class="btn btn-primary">确定</button>
+         </div>
+       </div>
+     </div>
+   </div>
+   <button class="btn btn-danger" data-toggle="modal" data-target="#modal-demo">删除</button> -->
+    <!-- nav 导航-->
+    <!--     <ul class="nav justify-content-center nav-tabs">
+    <li class="nav-item">
+        <a href="#" class="nav-link active">html</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">css</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link">js</a>
+    </li>
+</ul>
+<div class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <a href="#" class="navbar-brand">hello</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" class="nav-link">学习</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">社区</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">博客</a></li>
+        </ul>
+    </div>
+</div> -->
+ <!--  tooltip 提示-->
+    <button class="btn btn-primary"
+    data-toggle="tooltip"
+    title="tooltip提示"
+    data-placement="right">tooltip</button>
+    <!-- pagination -->
+    <ul class="pagination pagination-sm justify-content-center">
+        <li class="page-item disabled">
+            <a href="#" class="page-link">后退</a>
+        </li>
+        <li class="page-item active">
+            <a href="#" class="page-link">1</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">2</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">3</a>
+        </li>
+        <li class="page-item">
+            <a href="#" class="page-link">前进</a>
+        </li>
+    </ul>
+    <!-- popover -->
+    <button class="btn btn-primary" data-toggle="popover" title="yyyyyy" data-content="哈哈哈哈哈哈哈哈哈哈哈哈哈或或或或或" data-placement="bottom" data-trigger="focus">pop</button>
+    <!-- progress -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:32%">32%</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div id="nav-demo" class="nav nav-pills flex-column position-fixed bg-light p-3 text-right">
+                    <li class="nav-item">
+                        <a href="#html" class="nav-link">html</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#css" class="nav-link">css</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#js" class="nav-link">js</a>
+                    </li>
+                </div>
+            </div>
+            <div class="col-8">
+                <h3 id="html">HTML</h3>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <h3 id="css">CSS</h3>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <h3 id="js">JS</h3>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+                <p>面包屑导航是一种基于网站层次信息的显示方式。以博客为例，面包屑导航可以显示发布日期、类别或标签。它们表示当前页面在导航层次结构内的位置，是在用户界面中的一种导航辅助。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <!-- jquery  popper 必须放在bootstrap前面引入-->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
